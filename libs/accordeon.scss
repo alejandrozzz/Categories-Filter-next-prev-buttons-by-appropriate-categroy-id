@@ -1,0 +1,39 @@
+.accordion-container { 
+  margin: 40px auto; 
+  list-style-type: none;     
+  padding: 0;  
+  ul { list-style-type: none; padding-left: 0; }  
+  .accordion-category {
+    position: relative;
+    background: #fff;
+    .accordion-title {
+      font-size: 18px;
+      line-height: 40px;
+      color: #000;
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }    
+    .accordion-items {
+      max-height: 0;
+      height: 0;
+      margin: 0 0 0 20px;
+      overflow: hidden;
+      transition: 0.6s ease-in;  
+      li { 
+        &:first-child { padding-top: 10px }
+        &:last-child { padding-bottom: 10px; }
+      }
+    }
+    input {
+      display: none;
+      &.active ~ .accordion-items,
+      &:checked ~ .accordion-items {
+        height: auto;
+        max-height: 900px;
+        -webkit-transform: translate3d(0px,0,0);    
+      }
+    }
+  }
+}
+
