@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Заголовок</title>
+	<title>Filter By Category</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,99 +41,24 @@
 </head>
 
 <body>
-	<header class="main_head">
-		<div class="pc_v_header">
-			<div class="lg_topline">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<div class="logo">
-								<a href="#"><img src="img/logo.png" alt=""></a>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="contacts">
-								<p><i class="fa fa-phone" aria-hidden="true"></i> +7 495 969 41 42</p>
-								<p><i class="fa fa-at" aria-hidden="true"></i> info@bgmp.ru</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-							<nav class="main_mnu">
-								<ul>
-									<li><a href="/index.html">Главная</a></li>
-									<li><a href="/about.html">О нас</a></li>
-									<li><a href="/services.html">Услуги</a></li>
-									<li><a href="/practice.html">Практика</a></li>
-									<li><a href="/news.html">Новости</a></li>
-									<li><a href="/reviews.html">Отзывы</a></li>
-									<li><a href="/contacts.html">Контакты</a></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="mob_v_header">
-			<div class="header_mobile_container">
-				<div class="col-md-12">
-					<ul class="main_mnu_mobile check">
-						<li>
-							<div class="logo_mob">
-								<a href="#"><img style="width: 120px;" src="img/logo.png" alt="BGMP"></a>
-							</div>
-						</li>        
-						<li class="main_mnu_mobile_container"> 
-							<input id="main_mnu_mobile_toggle" type="checkbox">
-							<label for="main_mnu_mobile_toggle" class="main_mnu_mobile_button">  
-								<svg class="icon-open" viewBox="0 0 24 24">
-									<path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-								</svg>
-								<svg class="icon-close" viewBox="0 0 100 100">
-									<path d="M83.288 88.13c-2.114 2.112-5.575 2.112-7.69 0L53.66 66.188c-2.113-2.112-5.572-2.112-7.686 0l-21.72 21.72c-2.114 2.113-5.572 2.113-7.687 0l-4.693-4.692c-2.114-2.114-2.114-5.573 0-7.688l21.72-21.72c2.112-2.115 2.112-5.574 0-7.687L11.87 24.4c-2.114-2.113-2.114-5.57 0-7.686l4.842-4.842c2.113-2.114 5.57-2.114 7.686 0l21.72 21.72c2.114 2.113 5.572 2.113 7.688 0l21.72-21.72c2.115-2.114 5.574-2.114 7.688 0l4.695 4.695c2.112 2.113 2.112 5.57-.002 7.686l-21.72 21.72c-2.112 2.114-2.112 5.573 0 7.686L88.13 75.6c2.112 2.11 2.112 5.572 0 7.687l-4.842 4.84z"/>
-								</svg>
-							</label>
-							<ul class="main_mnu_mobile_sidebar">
-								<li><a href="/index.html">Главная</a></li>
-								<li><a href="/about.html">О нас</a></li>
-								<li><a href="/services.html">Услуги</a></li>
-								<li><a href="/practice.html">Практика</a></li>
-								<li><a href="/news.html">Новости</a></li>
-								<li><a href="/reviews.html">Отзывы</a></li>
-								<li><a href="/contacts.html">Контакты</a></li>
-							</ul> 
-						</li>
-						<li class="main_search_mobile_container"> 
-							<label for="main_search_mobile_toggle" class="main_search_mobile_button">  
-								<i class="fa fa-phone" aria-hidden="true"></i>
-							</label> 
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
+	
 	<section class="practice">
 		<div class="container">
 			<div class="practice_wrap">
 				<div class="row">
-					<div class="col-md-3">
-						<h2>Практика</h2>
+					<div class="col-md-3" style="padding: 0px 0px 0px 46px;margin: 18px 0 0 0;">
+						<h5>Filter By Category:</h5>
 					</div>
-					<div class="col-md-2">
-						<h5 class="cat_names">Категории:</h5>
-					</div>
-					<div class="col-md-7">
+					
+					<div class="col-md-9">
 						<div class="practice_mnu">
 							<ul>
 								<li class="grey_btn"><a class="active_page" id="all" href="#">all</a></li>
-								<li class="grey_btn"><a data-cat="cat1" class="scroll" href="#scrollId">Взаимодействие с гос. органами</a></li>
-								<li class="grey_btn"><a data-cat="cat2" class="scroll" href="#scrollId">Строительное право</a></li>
-								<li class="grey_btn"><a data-cat="cat3" class="scroll" href="#scrollId">Коммерческие споры</a></li>
-								<li class="grey_btn"><a data-cat="cat4" class="scroll" href="#scrollId">Банкротство</a></li>
-								<li class="grey_btn"><a data-cat="cat5" class="scroll" href="#scrollId">Корпоративное право</a></li>
+								<li class="grey_btn"><a data-cat="cat1" class="scroll" href="#scrollId">Category 1</a></li>
+								<li class="grey_btn"><a data-cat="cat2" class="scroll" href="#scrollId">Category 2</a></li>
+								<li class="grey_btn"><a data-cat="cat3" class="scroll" href="#scrollId">Category 3</a></li>
+								<li class="grey_btn"><a data-cat="cat4" class="scroll" href="#scrollId">Category 4</a></li>
+								<li class="grey_btn"><a data-cat="cat5" class="scroll" href="#scrollId">Category 5</a></li>
 							</ul>
 						</div>
 					</div>
@@ -141,44 +66,44 @@
 				<div class="row">
 					<div class="practice_items_wrap">
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat5">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Lorem ipsum dolor sit amet</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie pellentesque tortor, a mattis augue iaculis nec. Ut et mi viverra, facilisis enim eget, sodales sapien.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat2">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Aenean neque leo, sodales eu purus nec, vehicula sollicitudin metus.</h5>
+							<p>Sed placerat ac lectus a dictum. Vivamus dapibus vestibulum varius. Donec accumsan est tincidunt nulla vulputate, ut pharetra lorem tristique.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat3">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Proin enim neque, condimentum sed pharetra pellentesque, luctus ac nisi.</h5>
+							<p>Pellentesque ultricies massa quis ligula vulputate mattis. Pellentesque sed purus ipsum. Duis sit amet ex volutpat, luctus felis ac, tristique elit.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat5">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Donec ut elit at sem dignissim tempus.</h5>
+							<p>Curabitur interdum eget libero vitae viverra. Aenean ac fermentum mauris. Etiam est sem, interdum at egestas eget. </p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat2">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Suspendisse euismod sapien vel sagittis posuere.</h5>
+							<p>Cras interdum hendrerit faucibus. In tempor felis ut nibh convallis lobortis. Cras porta hendrerit augue, nec pharetra enim consequat quis.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat3">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Etiam quis convallis metus, viverra placerat felis.</h5>
+							<p>Suspendisse neque neque, pretium a nisi vel, consequat tempus tortor. Fusce congue mi in leo imperdiet, id interdum magna rhoncus.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat4">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Integer sit amet dolor a eros ornare feugiat condimentum nec augue.</h5>
+							<p>Etiam sodales sodales ullamcorper. Donec eget ipsum at felis suscipit dapibus quis et nulla. Donec dapibus metus sit amet scelerisque efficitur.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat5">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+							<p>Vivamus non accumsan tellus. Maecenas accumsan lectus tristique scelerisque malesuada. Donec facilisis sit amet metus ac dapibus.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat5">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Mauris et libero sed lorem posuere commodo.</h5>
+							<p>Aliquam vel consectetur quam, id scelerisque felis. Maecenas rhoncus dolor eu erat sagittis egestas. Proin ligula nisi, molestie ut placerat eu, blandit at tellus.</p>
 						</div>
 						<div class="col-xs-12 col-md-4 practice_item" data-cat="cat5">
-							<h5>Защита генерального директора предприятия от иска акционера на 7,8 млн. рублей</h5>
-							<p>ФНС РФ арестовало счет организации. Обратившись в суд, клиент попросил снять</p>
+							<h5>Donec dapibus libero id placerat vestibulum.</h5>
+							<p>Maecenas posuere sem purus, sit amet pharetra mauris congue non. Quisque eu ex auctor, commodo sem ac, malesuada eros.</p>
 						</div>
 					</div>
 				</div>
@@ -188,17 +113,17 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3 col-sm-3 col-xs-7">
+				<div class="col-md-12 col-sm-12 col-xs-12" style="text-align:center">
 					<div class="contacts_footer">
-						<p><i class="fa fa-phone" aria-hidden="true"></i> +7 495 969 41 42</p>
-						<p><i class="fa fa-at" aria-hidden="true"></i> info@bgmp.ru</p>
+					<br>
+						<p><i class="fa fa-phone" aria-hidden="true"></i> + 123456789</p>
+						<p><i class="fa fa-at" aria-hidden="true"></i> info@example.ru</p>
+					<br>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-6 xs-none">
-					<p class="social"><a href="#">Мы в <i class="fa fa-facebook" aria-hidden="true"></i></a></p>
-				</div>
+				
 				<div class="col-md-3 col-sm-3 col-xs-5">
-					<p class="studio_"><a href="#"><img style="width: 97px;height:38px;" src="http://web-spectre.ru//assets/templates/img/logo-bgmp.png" alt=""></a></p>
+				
 				</div>
 			</div>
 		</div>
